@@ -23,38 +23,44 @@ public class WrapperWebDriver {
 	private static final String SAUCE_URL = "https://" + configReader.getSauceUsername() + ":" + configReader.getSauceKey() + "@ondemand.saucelabs.com:443/wd/hub";
 	private static WebDriver driver = null;
 
-	@Before("@web")
-	public static void before() throws MalformedURLException {
+	@Before
+	public static void before() {
 
-		if (configReader.getEnvironment().equals("local")) {
-			//System.setProperty("webdriver.chrome.driver", configReader.getChromeDriverPath());
-			driver = new ChromeDriver();
+		try {
+			if (configReader.getEnvironment().equals("local")) {
+				//System.setProperty("webdriver.chrome.driver", configReader.getChromeDriverPath());
+				driver = new ChromeDriver();
 
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		} else if (configReader.getEnvironment().equals("sauce")) {
-			DesiredCapabilities caps = null;
-			if (configReader.getSauceBrowser().equals("chrome")) {
-				caps = DesiredCapabilities.chrome();
-			} else if (configReader.getSauceBrowser().equals("firefox")) {
-				caps = DesiredCapabilities.firefox();
-			} else if (configReader.getSauceBrowser().equals("safari")) {
-				caps = DesiredCapabilities.safari();
+				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			} else if (configReader.getEnvironment().equals("sauce")) {
+				DesiredCapabilities caps = null;
+				if (configReader.getSauceBrowser().equals("chrome")) {
+					caps = DesiredCapabilities.chrome();
+				} else if (configReader.getSauceBrowser().equals("firefox")) {
+					caps = DesiredCapabilities.firefox();
+				} else if (configReader.getSauceBrowser().equals("safari")) {
+					caps = DesiredCapabilities.safari();
+				} else {
+					throw new UnsupportedOperationException("Invalid Browser name");
+				}
+				caps.setCapability("platform", configReader.getPlatform());
+				caps.setCapability("version", configReader.getVersion());
+
+				driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+
 			} else {
-				throw new UnsupportedOperationException("Invalid Browser name");
+				throw new UnsupportedOperationException("Invalid Environment name");
 			}
-			caps.setCapability("platform", configReader.getPlatform());
-			caps.setCapability("version", configReader.getVersion());
 
-			driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+			driver.get(configReader.getUrl());
 
-		} else {
-			throw new UnsupportedOperationException("Invalid Environment name");
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
 		}
-
-		driver.get(configReader.getUrl());
 	}
 
-	@After("@web")
+
+	@After
 	public static void after() {
 		if (driver != null) {
 			driver.manage().deleteAllCookies();

@@ -4,6 +4,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import framework.WrapperWebDriver;
 import framework.web_pages.DarkSky.HomePage;
 import org.testng.Assert;
 
@@ -13,8 +14,15 @@ public class DarkSkySD {
 
 
     @Given("^I am on Dark Sky webpage$")
-    public void iAmOnDarkSkyWebpage() throws Throwable {
+    public void iAmOnDarkSkyWebpage() {
+        //WrapperWebDriver.before();
+        darkSkyHomePage.openBrowserAndWebpage();
         //BeforeClass method already opening the web page
+    }
+
+    @And("^close browser$")
+    public void closeBrowser() {
+        darkSkyHomePage.closeBrowser();
     }
 
     @When("^I enter zip code as (\\d+)$")

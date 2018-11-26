@@ -32,7 +32,7 @@ formatter.match({
   "location": "DarkSkySD.iAmOnDarkSkyWebpage()"
 });
 formatter.result({
-  "duration": 299975884,
+  "duration": 7561481552,
   "status": "passed"
 });
 formatter.scenario({
@@ -54,6 +54,11 @@ formatter.step({
   "name": "I verify timeline is displayed with 2 hours incremented for next 11 hours",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 10,
+  "name": "close browser",
+  "keyword": "And "
+});
 formatter.match({
   "arguments": [
     {
@@ -68,9 +73,15 @@ formatter.match({
   "location": "DarkSkySD.iVerifyTempBarIncrement(int,int)"
 });
 formatter.result({
-  "duration": 119080591,
-  "error_message": "java.lang.NullPointerException\n\tat com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:96)\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:87)\n\tat framework.BasePage.webAction(BasePage.java:19)\n\tat framework.BasePage.getTextFromElement(BasePage.java:65)\n\tat framework.web_pages.DarkSky.HomePage.getActualTemperatureTimeline(HomePage.java:82)\n\tat framework.web_pages.DarkSky.HomePage.verifyTemperatureBarValues(HomePage.java:75)\n\tat stepdefinition.DarkSkySD.iVerifyTempBarIncrement(DarkSkySD.java:37)\n\tat ✽.Then I verify timeline is displayed with 2 hours incremented for next 11 hours(darkSky.feature:9)\n",
-  "status": "failed"
+  "duration": 593077146,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DarkSkySD.closeBrowser()"
+});
+formatter.result({
+  "duration": 125557205,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -88,11 +99,11 @@ formatter.match({
   "location": "DarkSkySD.iAmOnDarkSkyWebpage()"
 });
 formatter.result({
-  "duration": 89840,
+  "duration": 3837130359,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
+  "line": 13,
   "name": "Verify individual day temp timeline",
   "description": "",
   "id": "dark-sky-feature;verify-individual-day-temp-timeline",
@@ -100,33 +111,45 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 11,
+      "line": 12,
       "name": "@tempRangeInBottom"
     }
   ]
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "I expand todays timeline",
   "keyword": "When "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I verify lowest and highest temp is displayed correctly",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "close browser",
+  "keyword": "And "
 });
 formatter.match({
   "location": "DarkSkySD.iExpandTodaysTimeLine()"
 });
 formatter.result({
-  "duration": 348428,
-  "error_message": "java.lang.NullPointerException\n\tat com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:96)\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:87)\n\tat framework.BasePage.webAction(BasePage.java:19)\n\tat framework.BasePage.clickOn(BasePage.java:38)\n\tat framework.web_pages.DarkSky.HomePage.clickOnTodaysTimeline(HomePage.java:116)\n\tat stepdefinition.DarkSkySD.iExpandTodaysTimeLine(DarkSkySD.java:43)\n\tat ✽.When I expand todays timeline(darkSky.feature:13)\n",
-  "status": "failed"
+  "duration": 135436671,
+  "status": "passed"
 });
 formatter.match({
   "location": "DarkSkySD.iVerifyLowHighTempIsDisplayedCorrectly()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 226115402,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DarkSkySD.closeBrowser()"
+});
+formatter.result({
+  "duration": 116191957,
+  "status": "passed"
 });
 });

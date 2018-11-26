@@ -1,0 +1,115 @@
+{
+  "features" : [ {
+    "title" : "Dark Sky Feature",
+    "statistic" : {
+      "total" : 7,
+      "passed" : 7,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "2790b7898027c245",
+      "title" : "Verify individual day temp timeline",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "f2a55b02058e107c",
+        "name" : "Given I am on Dark Sky webpage",
+        "title" : "Given I am on Dark Sky webpage",
+        "time" : {
+          "start" : 1543204304567,
+          "stop" : 1543204304567,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "83602c8a3cc3f118",
+        "name" : "When I expand todays timeline",
+        "title" : "When I expand todays timeline",
+        "time" : {
+          "start" : 1543204314717,
+          "stop" : 1543204314717,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "198780ece718940e",
+        "name" : "Then I verify lowest and highest temp is displayed correctly",
+        "title" : "Then I verify lowest and highest temp is displayed correctly",
+        "time" : {
+          "start" : 1543204324949,
+          "stop" : 1543204324949,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b5fde7d13c514f2f",
+        "name" : "And close browser",
+        "title" : "And close browser",
+        "time" : {
+          "start" : 1543204335074,
+          "stop" : 1543204335074,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "bb703fd34f755b05",
+      "title" : "Verify timeline is displayed in correct format",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8e66992494468204",
+        "name" : "Given I am on Dark Sky webpage",
+        "title" : "Given I am on Dark Sky webpage",
+        "time" : {
+          "start" : 1543204269580,
+          "stop" : 1543204269587,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6fe755da7c193849",
+        "name" : "Then I verify timeline is displayed with 2 hours incremented for next 11 hours",
+        "title" : "Then I verify timeline is displayed with 2 hours incremented for next 11 hours",
+        "time" : {
+          "start" : 1543204280326,
+          "stop" : 1543204280326,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8fbdda2684522416",
+        "name" : "And close browser",
+        "title" : "And close browser",
+        "time" : {
+          "start" : 1543204290469,
+          "stop" : 1543204290470,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

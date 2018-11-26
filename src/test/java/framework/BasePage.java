@@ -134,5 +134,12 @@ public class BasePage {
     	js.executeScript("arguments[0].scroolIntoView(true);" , element);
 	}
 
+	public void openBrowserAndWebpage() {
+    	WrapperWebDriver.before();
+	}
+
+	public void closeBrowser() {
+        WrapperWebDriver.after();
+    }
 
 }
