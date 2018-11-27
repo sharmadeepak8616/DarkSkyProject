@@ -1,10 +1,10 @@
 {
-  "uid" : "6fe755da7c193849",
+  "uid" : "429fc6890ea6514a",
   "name" : "Then I verify timeline is displayed with 2 hours incremented for next 11 hours",
   "title" : "Then I verify timeline is displayed with 2 hours incremented for next 11 hours",
   "time" : {
-    "start" : 1543204280326,
-    "stop" : 1543204280326,
+    "start" : 1543277087071,
+    "stop" : 1543277087071,
     "duration" : 0
   },
   "summary" : {
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "e9f72308b959ce94",
+    "uid" : "775cbdabbad9573f",
     "name" : "Verify timeline is displayed in correct format",
     "title" : "Verify timeline is displayed in correct format"
   },
@@ -25,14 +25,14 @@
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "20285@Deepaks-MacBook-Pro.local.main(1)"
-  }, {
-    "name" : "host",
-    "value" : "Deepaks-MacBook-Pro.local"
+    "value" : "20779@Deepaks-MBP.main(1)"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

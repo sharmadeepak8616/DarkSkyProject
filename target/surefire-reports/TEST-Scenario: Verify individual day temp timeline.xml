@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Verify individual day temp timeline" time="90.239" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Verify individual day temp timeline" time="0.121" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
@@ -64,13 +64,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on Dark Sky webpage" classname="Scenario: Verify timeline is displayed in correct format" time="10.173"/>
-  <testcase name="Then I verify timeline is displayed with 2 hours incremented for next 11 hours" classname="Scenario: Verify timeline is displayed in correct format" time="10.011"/>
-  <testcase name="And close browser" classname="Scenario: Verify timeline is displayed in correct format" time="10.01"/>
-  <testcase name="Scenario: Verify timeline is displayed in correct format" classname="Scenario: Verify timeline is displayed in correct format" time="10.012"/>
-  <testcase name="Given I am on Dark Sky webpage" classname="Scenario: Verify individual day temp timeline" time="10.01"/>
-  <testcase name="When I expand todays timeline" classname="Scenario: Verify individual day temp timeline" time="10.007"/>
-  <testcase name="Then I verify lowest and highest temp is displayed correctly" classname="Scenario: Verify individual day temp timeline" time="10.004"/>
-  <testcase name="And close browser" classname="Scenario: Verify individual day temp timeline" time="10.005"/>
-  <testcase name="Scenario: Verify individual day temp timeline" classname="Scenario: Verify individual day temp timeline" time="10.007"/>
+  <testcase name="Given I am on Dark Sky webpage" classname="Scenario: Verify timeline is displayed in correct format" time="0.104"/>
+  <testcase name="Then I verify timeline is displayed with 2 hours incremented for next 11 hours" classname="Scenario: Verify timeline is displayed in correct format" time="0.001"/>
+  <testcase name="And close browser" classname="Scenario: Verify timeline is displayed in correct format" time="0.001"/>
+  <testcase name="Scenario: Verify timeline is displayed in correct format" classname="Scenario: Verify timeline is displayed in correct format" time="0.006"/>
+  <testcase name="Given I am on Dark Sky webpage" classname="Scenario: Verify individual day temp timeline" time="0"/>
+  <testcase name="When I expand todays timeline" classname="Scenario: Verify individual day temp timeline" time="0"/>
+  <testcase name="Then I verify lowest and highest temp is displayed correctly" classname="Scenario: Verify individual day temp timeline" time="0.002"/>
+  <testcase name="And close browser" classname="Scenario: Verify individual day temp timeline" time="0.003"/>
+  <testcase name="Scenario: Verify individual day temp timeline" classname="Scenario: Verify individual day temp timeline" time="0.004"/>
 </testsuite>

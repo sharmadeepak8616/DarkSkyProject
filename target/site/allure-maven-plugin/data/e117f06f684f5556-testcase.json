@@ -1,10 +1,10 @@
 {
-  "uid" : "8fbdda2684522416",
+  "uid" : "e117f06f684f5556",
   "name" : "And close browser",
   "title" : "And close browser",
   "time" : {
-    "start" : 1543204290469,
-    "stop" : 1543204290470,
+    "start" : 1543277087207,
+    "stop" : 1543277087208,
     "duration" : 1
   },
   "summary" : {
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "e9f72308b959ce94",
+    "uid" : "775cbdabbad9573f",
     "name" : "Verify timeline is displayed in correct format",
     "title" : "Verify timeline is displayed in correct format"
   },
@@ -25,14 +25,14 @@
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "20285@Deepaks-MacBook-Pro.local.main(1)"
-  }, {
-    "name" : "host",
-    "value" : "Deepaks-MacBook-Pro.local"
+    "value" : "20779@Deepaks-MBP.main(1)"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

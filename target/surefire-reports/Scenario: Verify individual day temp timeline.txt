@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Scenario: Verify individual day temp timeline
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 83.601 sec - in Scenario: Verify individual day temp timeline
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.198 sec - in Scenario: Verify individual day temp timeline

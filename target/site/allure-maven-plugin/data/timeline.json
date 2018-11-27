@@ -1,81 +1,81 @@
 {
   "hosts" : [ {
-    "title" : "Deepaks-MacBook-Pro.local",
+    "title" : "Deepaks-MBP",
     "threads" : [ {
-      "title" : "20285@Deepaks-MacBook-Pro.local.main(1)",
+      "title" : "20779@Deepaks-MBP.main(1)",
       "testCases" : [ {
-        "uid" : "f2a55b02058e107c",
+        "uid" : "f42206092fad1403",
         "name" : "Given I am on Dark Sky webpage",
         "title" : "Given I am on Dark Sky webpage",
         "time" : {
-          "start" : 1543204304567,
-          "stop" : 1543204304567,
+          "start" : 1543277090543,
+          "stop" : 1543277090543,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "83602c8a3cc3f118",
+        "uid" : "81d107b869ae8683",
         "name" : "When I expand todays timeline",
         "title" : "When I expand todays timeline",
         "time" : {
-          "start" : 1543204314717,
-          "stop" : 1543204314717,
-          "duration" : 0
+          "start" : 1543277090735,
+          "stop" : 1543277090736,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "198780ece718940e",
+        "uid" : "c26d01b7d827fc12",
         "name" : "Then I verify lowest and highest temp is displayed correctly",
         "title" : "Then I verify lowest and highest temp is displayed correctly",
         "time" : {
-          "start" : 1543204324949,
-          "stop" : 1543204324949,
+          "start" : 1543277091782,
+          "stop" : 1543277091782,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b5fde7d13c514f2f",
+        "uid" : "4e28e954ea176886",
         "name" : "And close browser",
         "title" : "And close browser",
         "time" : {
-          "start" : 1543204335074,
-          "stop" : 1543204335074,
-          "duration" : 0
+          "start" : 1543277091927,
+          "stop" : 1543277091928,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8e66992494468204",
+        "uid" : "f5dc18b29133d5f",
         "name" : "Given I am on Dark Sky webpage",
         "title" : "Given I am on Dark Sky webpage",
         "time" : {
-          "start" : 1543204269580,
-          "stop" : 1543204269587,
-          "duration" : 7
+          "start" : 1543277086194,
+          "stop" : 1543277086197,
+          "duration" : 3
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6fe755da7c193849",
+        "uid" : "429fc6890ea6514a",
         "name" : "Then I verify timeline is displayed with 2 hours incremented for next 11 hours",
         "title" : "Then I verify timeline is displayed with 2 hours incremented for next 11 hours",
         "time" : {
-          "start" : 1543204280326,
-          "stop" : 1543204280326,
+          "start" : 1543277087071,
+          "stop" : 1543277087071,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8fbdda2684522416",
+        "uid" : "e117f06f684f5556",
         "name" : "And close browser",
         "title" : "And close browser",
         "time" : {
-          "start" : 1543204290469,
-          "stop" : 1543204290470,
+          "start" : 1543277087207,
+          "stop" : 1543277087208,
           "duration" : 1
         },
         "severity" : "NORMAL",
