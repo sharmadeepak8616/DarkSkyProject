@@ -21,7 +21,7 @@ public class HomePage  extends BasePage {
     private By todaysTimeLineMaxTemp = By.xpath("//a[@class='day revealed'][@data-day='0']//span[@class='maxTemp']");
     private By lowTempFromTodaysDetail = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//span[@class='highTemp swip']//span[@class='temp']");
     private By highTempFromTodaysDetail = By.xpath("//div[@class='dayDetails revealed']//div[@class='dayExtras']//span[@class='lowTemp swap']//span[@class='temp']");
-
+    private By timeMachineButtonLocator = By.xpath("//a[contains(text(), 'Time Machine')]");
 
     private String tempBarValuesStart = "//div[@class='hours']//span[";
     private String tempBarValuesEnd = "]/span";

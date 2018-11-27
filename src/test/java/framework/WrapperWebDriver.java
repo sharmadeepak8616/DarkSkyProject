@@ -23,7 +23,7 @@ public class WrapperWebDriver {
 	private static final String SAUCE_URL = "https://" + configReader.getSauceUsername() + ":" + configReader.getSauceKey() + "@ondemand.saucelabs.com:443/wd/hub";
 	private static WebDriver driver = null;
 
-	@Before
+	@Before()
 	public static void before() {
 
 		try {
@@ -60,7 +60,7 @@ public class WrapperWebDriver {
 	}
 
 
-	@After
+	@After()
 	public static void after() {
 		if (driver != null) {
 			driver.manage().deleteAllCookies();

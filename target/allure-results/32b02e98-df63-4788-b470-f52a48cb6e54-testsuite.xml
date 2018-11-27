@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1543204259546" stop="1543204290475" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1543277086161" stop="1543277087216" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Verify timeline is displayed in correct format</name>
     <title>Verify timeline is displayed in correct format</title>
     <test-cases>
-        <test-case start="1543204269580" stop="1543204269587" status="passed">
+        <test-case start="1543277086194" stop="1543277086197" status="passed">
             <name>Given I am on Dark Sky webpage</name>
             <title>Given I am on Dark Sky webpage</title>
             <steps/>
             <attachments/>
             <labels>
-                <label name="host" value="Deepaks-MacBook-Pro.local"/>
-                <label name="thread" value="20285@Deepaks-MacBook-Pro.local.main(1)"/>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="20779@Deepaks-MBP.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1543204280326" stop="1543204280326" status="passed">
+        <test-case start="1543277087071" stop="1543277087071" status="passed">
             <name>Then I verify timeline is displayed with 2 hours incremented for next 11 hours</name>
             <title>Then I verify timeline is displayed with 2 hours incremented for next 11 hours</title>
             <steps/>
             <attachments/>
             <labels>
-                <label name="host" value="Deepaks-MacBook-Pro.local"/>
-                <label name="thread" value="20285@Deepaks-MacBook-Pro.local.main(1)"/>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="20779@Deepaks-MBP.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1543204290469" stop="1543204290470" status="passed">
+        <test-case start="1543277087207" stop="1543277087208" status="passed">
             <name>And close browser</name>
             <title>And close browser</title>
             <steps/>
             <attachments/>
             <labels>
-                <label name="host" value="Deepaks-MacBook-Pro.local"/>
-                <label name="thread" value="20285@Deepaks-MacBook-Pro.local.main(1)"/>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="20779@Deepaks-MBP.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

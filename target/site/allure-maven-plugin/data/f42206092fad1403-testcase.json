@@ -1,10 +1,10 @@
 {
-  "uid" : "83602c8a3cc3f118",
-  "name" : "When I expand todays timeline",
-  "title" : "When I expand todays timeline",
+  "uid" : "f42206092fad1403",
+  "name" : "Given I am on Dark Sky webpage",
+  "title" : "Given I am on Dark Sky webpage",
   "time" : {
-    "start" : 1543204314717,
-    "stop" : 1543204314717,
+    "start" : 1543277090543,
+    "stop" : 1543277090543,
     "duration" : 0
   },
   "summary" : {
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "3a7fdc8971112250",
+    "uid" : "35ba38146404dace",
     "name" : "Verify individual day temp timeline",
     "title" : "Verify individual day temp timeline"
   },
@@ -25,6 +25,9 @@
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
     "name" : "story",
     "value" : "Verify individual day temp timeline"
   }, {
@@ -38,10 +41,7 @@
     "value" : "Verify individual day temp timeline"
   }, {
     "name" : "thread",
-    "value" : "20285@Deepaks-MacBook-Pro.local.main(1)"
-  }, {
-    "name" : "host",
-    "value" : "Deepaks-MacBook-Pro.local"
+    "value" : "20779@Deepaks-MBP.main(1)"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

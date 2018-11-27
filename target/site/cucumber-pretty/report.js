@@ -32,7 +32,7 @@ formatter.match({
   "location": "DarkSkySD.iAmOnDarkSkyWebpage()"
 });
 formatter.result({
-  "duration": 7561481552,
+  "duration": 7058218043,
   "status": "passed"
 });
 formatter.scenario({
@@ -73,14 +73,14 @@ formatter.match({
   "location": "DarkSkySD.iVerifyTempBarIncrement(int,int)"
 });
 formatter.result({
-  "duration": 593077146,
+  "duration": 692360738,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkSkySD.closeBrowser()"
 });
 formatter.result({
-  "duration": 125557205,
+  "duration": 131926482,
   "status": "passed"
 });
 formatter.background({
@@ -99,7 +99,7 @@ formatter.match({
   "location": "DarkSkySD.iAmOnDarkSkyWebpage()"
 });
 formatter.result({
-  "duration": 3837130359,
+  "duration": 3022859154,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,21 +135,21 @@ formatter.match({
   "location": "DarkSkySD.iExpandTodaysTimeLine()"
 });
 formatter.result({
-  "duration": 135436671,
+  "duration": 187257953,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkSkySD.iVerifyLowHighTempIsDisplayedCorrectly()"
 });
 formatter.result({
-  "duration": 226115402,
+  "duration": 1041111064,
   "status": "passed"
 });
 formatter.match({
   "location": "DarkSkySD.closeBrowser()"
 });
 formatter.result({
-  "duration": 116191957,
+  "duration": 139549743,
   "status": "passed"
 });
 });

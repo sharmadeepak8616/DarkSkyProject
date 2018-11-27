@@ -1,11 +1,11 @@
 {
-  "uid" : "198780ece718940e",
-  "name" : "Then I verify lowest and highest temp is displayed correctly",
-  "title" : "Then I verify lowest and highest temp is displayed correctly",
+  "uid" : "4e28e954ea176886",
+  "name" : "And close browser",
+  "title" : "And close browser",
   "time" : {
-    "start" : 1543204324949,
-    "stop" : 1543204324949,
-    "duration" : 0
+    "start" : 1543277091927,
+    "stop" : 1543277091928,
+    "duration" : 1
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "3a7fdc8971112250",
+    "uid" : "35ba38146404dace",
     "name" : "Verify individual day temp timeline",
     "title" : "Verify individual day temp timeline"
   },
@@ -25,6 +25,9 @@
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
     "name" : "story",
     "value" : "Verify individual day temp timeline"
   }, {
@@ -38,10 +41,7 @@
     "value" : "Verify individual day temp timeline"
   }, {
     "name" : "thread",
-    "value" : "20285@Deepaks-MacBook-Pro.local.main(1)"
-  }, {
-    "name" : "host",
-    "value" : "Deepaks-MacBook-Pro.local"
+    "value" : "20779@Deepaks-MBP.main(1)"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"
